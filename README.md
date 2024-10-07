@@ -12,8 +12,14 @@ Este repositório contém um conjunto de scripts de teste de performance utiliza
 
 
 -VsCode: IDE
+
+
 -K6: Ferramenta de testes de carga.
+
+
 -JavaScript: Linguagem usada para escrever os scripts de teste.
+
+
 -Grafana: Integração opcional para visualização de métricas e dashboards.
 
 🚧 Pré-requisitos
