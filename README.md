@@ -53,37 +53,7 @@ Para obter relatórios detalhados com saída em JSON: k6 run --out json=results/
 🖥️ Exemplo de Script de Teste
 
 
-Aqui está um exemplo simples de script em JavaScript usando K6:
-
--import http from 'k6/http';
--import { check, sleep } from 'k6';
-
--export const options = {
--  stages: [
--    { duration: '30s', target: 50 },  // Aumenta para 50 usuários
--    { duration: '1m', target: 100 },  // Aumenta para 100 usuários
--    { duration: '30s', target: 0 },   // Finaliza o teste
--  ],
--};
-
--export default function () {
--  const res = http.get('https://api.suaaplicacao.com');
-  
--  check(res, {
--    'status 200': (r) => r.status === 200,
--    'response time < 500ms': (r) => r.timings.duration < 500,
--  });
--  sleep(1);
--}
-
-📊 Visualizando Resultados
-
-
-Os resultados podem ser visualizados diretamente no terminal ou exportados para um banco de dados e visualizados em um dashboard Grafana.
-comandos:
-
--No browser digite
-
+-Aqui está um exemplo simples de script em JavaScript usando K6:
 
 - Rode o comando no script que deseja visualizar. Aqui será o script `carga5.js` abaixo:
 
