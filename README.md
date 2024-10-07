@@ -1,5 +1,6 @@
 🌟 Performance Testing with K6
 
+
 Este repositório contém um conjunto de scripts de teste de performance utilizando o K6, uma ferramenta de código aberto e extensível para testes de carga.
 
 🚀 O que é o K6?
@@ -9,12 +10,15 @@ Este repositório contém um conjunto de scripts de teste de performance utiliza
 
 🛠️ Tecnologias Utilizadas
 
+
 -VsCode: IDE
 -K6: Ferramenta de testes de carga.
 -JavaScript: Linguagem usada para escrever os scripts de teste.
 -Grafana: Integração opcional para visualização de métricas e dashboards.
 
 🚧 Pré-requisitos
+
+
 Certifique-se de ter o K6 instalado em sua máquina. Você pode instalá-lo facilmente seguindo as instruções abaixo:
 
 # Para Linux/macOS usando Homebrew:
@@ -30,6 +34,8 @@ Aqui está um exemplo de um README para um projeto usando o K6, com um design li
 
 
 🔥 Como Rodar os Testes
+
+
 Executar um teste básico
 -1-Clone o repositório:
 
@@ -45,6 +51,8 @@ ex:
 Para obter relatórios detalhados com saída em JSON: k6 run --out json=results/test_results.json scripts/test_script_1.js
 
 🖥️ Exemplo de Script de Teste
+
+
 Aqui está um exemplo simples de script em JavaScript usando K6:
 
 -import http from 'k6/http';
@@ -75,6 +83,8 @@ Os resultados podem ser visualizados diretamente no terminal ou exportados para 
 comandos:
 
 -No browser digite
+
+
 -http://localhost:5665/ui/?endpoint=/
 
 -e rode o comando no script que deseja visualizar. Aqui será o script carga5.js abaixo
@@ -131,11 +141,17 @@ comandos:
 -  K6_WEB_DASHBOARD=true k6 run carga5.js -e URL=https://test-api.k6.io/public
 
 🤝 Contribuições
+
+
 -Contribuições são bem-vindas! Fique à vontade para abrir uma issue ou enviar um pull request.
 
 📄 Licença
+
+
 -Este projeto está licenciado sob os termos da licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
 🧑‍💻 Autor
+
+
 -Elrison Gomes da Silva
 -Engenheiro de Qualidade | Tester QA | Analista de Testes | Desenvolvedor de Testes
